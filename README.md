@@ -42,14 +42,14 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
-## 🤔 Dúvidas?
-
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
-
 ## O que eu fiz
 
-Utilizei um dataset obtido do Kaggle que está em https://www.kaggle.com/datasets/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now
+### Usei o seguinte prompt no chatGPT
 
-Escolhi o nome da Seleção como critério. Após aproximadamente ?? minutos decorridos de 45 minutos previstos para o build os principais resultados foram:
+>> crie um arquivo csv separado por vírgulas que apresente 250 resultados fictícios de jogos de futebol, contendo as informações sobre o nome dos times mandante, visitante, número de gols mandante e visitante e placar do jogo.
+
+Usei o arquivo criado pelo ChatGPT 4 como base para o modelo.
+
+Usei como Target column (coluna alvo) o Score (Placar)
 
 
