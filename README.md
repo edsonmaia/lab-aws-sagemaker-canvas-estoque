@@ -44,12 +44,15 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ## O que eu fiz
 
-### Usei o seguinte prompt no chatGPT
+Utilizei vários arquivos csv, porém, após várias tentativas, de usar um csv válido. Alguns csvs tinham menos de 250 linhas, outras, tinham muitos títulos e após vários testes que fiz apareceu a seguinte mensagem:
 
->> crie um arquivo csv separado por vírgulas que apresente 250 resultados fictícios de jogos de futebol, contendo as informações sobre o nome dos times mandante, visitante, número de gols mandante e visitante e placar do jogo.
+Data preparation failed
+ResourceLimitExceeded("An error occurred (ResourceLimitExceeded) when calling the CreateAutoMLJobV2 operation: The account-level service limit 'Maximum number of concurrent AutoML Jobs' is 1 AutoMLJobs, with current utilization of 1 AutoMLJobs and a request delta of 1 AutoMLJobs. Please use AWS Service Quotas to request an increase for this quota. If AWS Service Quotas is not available, contact AWS support to request an increase for this quota.")
 
-Usei o arquivo criado pelo ChatGPT 4 como base para o modelo.
+Minha cota estava excedida.
 
-Usei como Target column (coluna alvo) o Score (Placar)
+
+
+
 
 
